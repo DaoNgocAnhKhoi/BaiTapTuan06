@@ -98,3 +98,121 @@ header .header__image {
 .title .title__image .title__image__left {
     margin-right: 10px;
 }
+
+.description .description__content {
+    display: flex;
+    margin-top: 40px;
+}
+
+.description .description__content .description__left {
+    width: 70%;
+    padding-right: 50px;
+    color: #323842;
+}
+
+.description .description__content .description__right {
+    width: 30%;
+}
+
+.description .description__content .description__left h1 {
+    font-size: 27px;
+    margin: 0;
+}
+
+.description .description__content .description__left p {
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.description .description__content .description__left .description__list ul {
+    margin-top: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.description .description__content .description__left .description__list ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 45px;
+}
+
+.description .description__content .description__left .description__list ul li img {
+    margin-right: 10px;
+}
+
+.description .description__content .description__right {
+    padding: 20px 25px;
+    border: 1px solid #f3f4f6;
+}
+
+.description .description__content .description__right h1 {
+    text-align: end;
+    margin: 0 0 20px;
+    font-size: 35px;
+    color: #00bdd6;
+    font-weight: bold;
+}
+
+.description .description__content .description__right .description__item input {
+    width: 90%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    background-color: #f3f4f6;
+    border: none;
+    outline: none;
+}
+
+.description .description__content .description__right .description__item {
+    position: relative;
+}
+
+.description .description__content .description__right .description__item i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.description .description__content .description__right .description__item input::placeholder {
+    color: black;
+}
+
+.description .description__content .description__right .description__detail {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description .description__content .description__right .description__detail span:first-of-type {
+    color: #9095a0;
+}
+
+.description .description__content .description__right .description__detail span:last-of-type {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.description .description__content .description__right .description__button button {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.description .description__content .description__right .description__button button {
+    background-color: white;
+    color: #00bdd6;
+    border: 1px solid #00bdd6;
+    padding: 10px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.description .description__content .description__right .description__button.button__blue button {
+    background-color: #00bdd6;
+    color: white;
+}
