@@ -51,3 +51,50 @@ header .header__search i {
 header .header__image {
     margin-left: 20px;
 }
+
+.body {
+    padding: 50px 200px;
+}
+
+.title p {
+    color: #9095a0;
+}
+
+.title span {
+    color: black;
+}
+
+.title p,
+.title span {
+    letter-spacing: 1px;
+}
+
+.title .title__rate img {
+    margin-right: 5px;
+}
+
+.title .title__rate span:first-of-type {
+    font-weight: bold;
+}
+
+.title .title__star {
+    margin-bottom: 7px;
+}
+
+.title h1 {
+    font-size: 60px;
+    margin: 0 0 20px;
+}
+
+.title .title__tools .title__save {
+    margin-left: 40px;
+}
+
+.title .title__image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title .title__image .title__image__left {
+    margin-right: 10px;
+}
